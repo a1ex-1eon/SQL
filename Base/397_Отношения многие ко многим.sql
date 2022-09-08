@@ -1,5 +1,3 @@
-
-
 SELECT
 o.id,
 count(od.product_id) as products,
