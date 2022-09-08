@@ -1,3 +1,11 @@
+/*
+Программисты
+Таблицы users и roles связаны отношением многие ко многим через таблицу users_roles.
+Получите всех программистов компании.
+
+Выведите id пользователя, его имя и фамилию. Данные отсортируйте по фамилии.
+*/
+
 SET foreign_key_checks = 0;
 DROP TABLE IF EXISTS roles;
 DROP TABLE IF EXISTS users;
